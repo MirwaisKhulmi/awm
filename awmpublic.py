@@ -2558,9 +2558,9 @@ class Main:
 
 			else:
 
-				continue
+	
 
-		self.loop +=1
+		self.lo
 
 	
 
