@@ -764,19 +764,19 @@ logo = ("""\033[1;32m
 
        
 
-###       ##       ##   ##          ## 
+         ###    ##          ##      ##         ## 
 
-       ## ##.    ##  ##  ##.  ## #     # ## 
+       ## ##.   ##    ##    ##.     ## #     #  ## 
 
-      ##   ##    ##  ##  ##.  ##  ####  ## 
+      ##   ##   ##    ##    ##.    ##   ####     ## 
 
-     ##     ##   ##  ##  ##.  ##   ###   ## 
+     ##     ##  ##    ##     ##.   ##    ###     ## 
 
-    ########  ## ### ##   ##           ## 
+     ########   ##    ###    ##    ##            ## 
 
-     ##     ##   ##  ##  #.   ##            ## 
+     ##     ##   ##    ##    #.    ##            ## 
 
-     ##     ##    ###  ###   ##            ## 
+     ##     ##    ###  ##  ###     ##            ## 
 
                                             \033
 
@@ -2570,7 +2570,7 @@ def Subscraption():
 
 	print(logo)
 
-	r1=requests.get("https://pastbin.net/raw/approvaltxt").text
+	r1=requests.get("https://raw.githubusercontent.com/MirwaisKhulmi/Approval/main/approval.txt").text
 
 	if key1 in r1:
 
