@@ -84,7 +84,7 @@ logo =  """
 
   Youtube      : ANDROID AWM TECH
 
-   Version.    : 1.4
+  Version.     : 1.4
 
 ══════════════════════════════════════════════════"""
 
@@ -358,7 +358,7 @@ def rcrack(uid,pwx,tl):
 
                 cid = coki[7:22]
 
-                print('\033[1;32m[AWM-OK] '+cid+' | '+ps+'\033[0;97m')
+                print('\033[1;32m[AWM-OK😘] '+cid+' | '+ps+'\033[0;97m')
 
                 open('ok.txt', 'a').write(cid+' | '+ps+'\n')
 
@@ -372,7 +372,7 @@ def rcrack(uid,pwx,tl):
 
                 cid = coki[24:39]
 
-                print('\033[1;31m[AWM-CP] '+cid+' | '+ps+'\033[0;97m')
+                print('\033[1;31m[AWM-CP😢] '+cid+' | '+ps+'\033[0;97m')
 
                 open('cp.txt', 'a').write(cid+' | '+ps+'\n')
 
