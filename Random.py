@@ -396,8 +396,8 @@ def rcrack(uid,pwx,tl):
 
 asad()
 
-		Subscraption() 
+
 
 	
 
-Subscraption() 
+
